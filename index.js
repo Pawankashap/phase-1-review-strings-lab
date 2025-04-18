@@ -6,3 +6,8 @@ const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
 const excitedWelcomeMessage = welcomeMessage.toUpperCase();
 const shortGreeting=`Welcome, ${currentUser.slice(0, 1)}!`;
 
+function catname(cname) {
+    if(cname==="Daisy") {
+        return 'Hi welcome ${cname}'
+    }
+}
